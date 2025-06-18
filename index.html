@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plano 7x7 – Organização Alimentar com Leveza - Transforme Sua Relação com a Comida</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="Descubra o caminho para uma alimentação leve, consciente e prazerosa. Plano 7x7 – Organização Alimentar com Leveza: Kit completo com 8 e-books para transformar sua relação com a comida sem dietas restritivas.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,19 +77,21 @@
             display: inline-block;
             background: linear-gradient(135deg, var(--accent-color) 0%, #c19660 100%);
             color: var(--white);
-            padding: 18px 40px;
+            padding: 20px 45px;
             border-radius: 50px;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
+            font-weight: 700;
+            font-size: 1.2rem;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(212, 165, 116, 0.3);
-            margin: 10px;
+            box-shadow: 0 6px 20px rgba(212, 165, 116, 0.4);
+            margin: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
         .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(212, 165, 116, 0.4);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(212, 165, 116, 0.5);
         }
 
         .section {
@@ -202,6 +200,55 @@
             padding: 40px;
             margin-bottom: 40px;
         }
+
+        .guarantee-section {
+            background: var(--blue-soft);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .guarantee-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: var(--text-primary);
+            margin-bottom: 20px;
+        }
+
+        .guarantee-section p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .guarantee-section .badges img {
+            height: 50px;
+            margin: 0 15px;
+        }
+
+        .guarantee-section .badges {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .guarantee-section .badge-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        .guarantee-section .badge-item img {
+            margin-bottom: 5px;
+        }
+
 
         .testimonial {
             background: var(--pink-soft);
@@ -313,6 +360,17 @@
             background: var(--primary-color);
         }
 
+        .social-proof-dynamic {
+            background: var(--pink-soft);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2rem;
@@ -393,9 +451,7 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <div style="text-align: center; margin-bottom: 30px;">
-                <img src="hero-image.png" alt="Alimentação Leve e Consciente" style="max-width: 300px; width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
-            </div>
+
             <h1>Plano 7x7 – Organização Alimentar com Leveza</h1>
             <p class="subtitle">Chega de Dietas Restritivas e Frustrações!</p>
             <p class="description">Descubra o caminho para uma vida mais leve e saborosa, sem abrir mão do prazer de comer. Transforme sua relação com a comida de forma gentil e duradoura.</p>
@@ -429,9 +485,19 @@
                    id="ctaButton" 
                    class="cta-button" 
                    style="display: none; margin-top: 20px;">
-                   QUERO MEU PLANO 7X7 AGORA!
+                   SIM, QUERO TRANSFORMAR MINHA ALIMENTAÇÃO!
                 </a>
             </div>
+        </div>
+    </section>
+
+    <!-- Segunda CTA abaixo da VSL -->
+    <section class="section" id="cta-after-vsl">
+        <div class="container" style="text-align: center;">
+            <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" 
+               class="cta-button">
+               SIM, QUERO TRANSFORMAR MINHA ALIMENTAÇÃO!
+            </a>
         </div>
     </section>
 
@@ -442,100 +508,101 @@
             
             <div class="product-grid">
                 <div class="product-card">
-                    <h3>1. Organização Alimentar Sem Complicação</h3>
+                    <h3>1. Organização Sem Complicação</h3>
                     <div class="benefits">
                         <ul>
-                            <li>Planejamento semanal realista e flexível</li>
-                            <li>Divisão em blocos alimentares para otimizar energia</li>
-                            <li>Checklists prontos para usar no dia a dia</li>
+                            <li>Planejamento semanal flexível</li>
                             <li>Reduza o estresse na hora de comer</li>
                         </ul>
                     </div>
+                    <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
                 </div>
 
                 <div class="product-card">
-                    <h3>2. Cardápio Inteligente para Mulheres Ocupadas</h3>
+                    <h3>2. Cardápio Inteligente</h3>
                     <div class="benefits">
                         <ul>
                             <li>7 dias de cardápio completo e balanceado</li>
                             <li>Alternativas rápidas para dias corridos</li>
-                            <li>Lista de substituições inteligentes</li>
-                            <li>Dicas de reaproveitamento criativo</li>
                         </ul>
                     </div>
+                    <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
                 </div>
 
                 <div class="product-card">
-                    <h3>3. Lista de Compras Inteligente + Economia</h3>
+                    <h3>3. Lista de Compras Inteligente</h3>
                     <div class="benefits">
                         <ul>
                             <li>Listas segmentadas por categorias</li>
-                            <li>Itens coringas para sua despensa</li>
                             <li>Dicas valiosas de economia doméstica</li>
-                            <li>Template para imprimir ou usar no celular</li>
                         </ul>
                     </div>
+                    <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
                 </div>
 
                 <div class="product-card">
-                    <h3>4. Receitas Prontas para o Dia a Dia</h3>
+                    <h3>4. Receitas Práticas</h3>
                     <div class="benefits">
                         <ul>
                             <li>7 receitas saudáveis e rápidas</li>
                             <li>Modo de preparo passo a passo</li>
-                            <li>Variações e sugestões para marmitas</li>
-                            <li>Receita bônus de doce saudável</li>
                         </ul>
                     </div>
+                    <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
                 </div>
 
                 <div class="product-card">
-                    <h3>5. Lanches Saudáveis para TPM e Ansiedade</h3>
+                    <h3>5. Lanches para TPM e Ansiedade</h3>
                     <div class="benefits">
                         <ul>
                             <li>7 ideias práticas com ingredientes calmantes</li>
-                            <li>Receita rápida com sugestão visual</li>
-                            <li>Frases acolhedoras para cada momento</li>
                             <li>Cuide do corpo e da mente simultaneamente</li>
                         </ul>
                     </div>
+                    <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
                 </div>
 
                 <div class="product-card">
-                    <h3>6. Como Driblar a Ansiedade Sem Neurose</h3>
+                    <h3>6. Driblando a Ansiedade</h3>
                     <div class="benefits">
                         <ul>
                             <li>Técnicas emocionais aplicadas à alimentação</li>
-                            <li>Respiração e atenção plena</li>
-                            <li>Dicas para "respirar antes de comer"</li>
                             <li>Frases motivacionais e libertadoras</li>
                         </ul>
                     </div>
+                    <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
                 </div>
 
                 <div class="product-card">
-                    <h3>7. Mini Desafio de 7 Dias – Alimentação em Ordem</h3>
+                    <h3>7. Mini Desafio de 7 Dias</h3>
                     <div class="benefits">
                         <ul>
                             <li>Desafio prático para implementar tudo</li>
-                            <li>Checklist diário de acompanhamento</li>
-                            <li>Dicas de motivação para cada dia</li>
                             <li>Transforme hábitos de forma gradual</li>
                         </ul>
                     </div>
+                    <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
                 </div>
 
                 <div class="product-card">
-                    <h3>8. Bônus: Guia de Substituições Inteligentes</h3>
+                    <h3>8. Bônus: Guia de Substituições</h3>
                     <div class="benefits">
                         <ul>
                             <li>Alternativas saudáveis para ingredientes comuns</li>
-                            <li>Dicas para adaptar receitas tradicionais</li>
-                            <li>Lista de compras para despensa saudável</li>
                             <li>Economize tempo e dinheiro nas compras</li>
                         </ul>
                     </div>
+                    <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Section -->
+    <section class="section">
+        <div class="container">
+            <div style="text-align: center; background: var(--pink-soft); padding: 20px; border-radius: 10px; margin-bottom: 40px;">
+                <p style="font-size: 1.1rem; font-weight: 600; color: var(--text-primary);">🔥 Mais de <span id="socialProofNumber">327</span> mulheres já acessaram o Plano 7x7 esta semana!</p>
             </div>
         </div>
     </section>
@@ -546,16 +613,44 @@
             <h2 class="section-title">O Que Nossas Clientes Estão Dizendo</h2>
             <div class="testimonials">
                 <div class="testimonial">
-                    <p class="testimonial-text">"Finalmente encontrei um método que funciona para mim! Não é mais uma dieta restritiva, é um estilo de vida. Perdi 8kg em 2 meses sem passar fome."</p>
-                    <p class="testimonial-author">— Maria Silva, 34 anos</p>
+                    <p class="testimonial-text">"O Plano 7x7 mudou minha vida! Em apenas 2 meses, perdi 8kg sem dietas malucas e, o melhor, aprendi a comer de forma consciente. Sinto-me mais leve e com energia de sobra!"</p>
+                    <p class="testimonial-author">— Maria Silva, 34 anos, Empresária</p>
                 </div>
                 <div class="testimonial">
-                    <p class="testimonial-text">"O que mais me impressionou foi como consegui organizar minha alimentação mesmo com a rotina corrida. As receitas são práticas e deliciosas!"</p>
-                    <p class="testimonial-author">— Ana Costa, 28 anos</p>
+                    <p class="testimonial-text">"Mesmo com a rotina agitada, consegui organizar minhas refeições e parar de comer por ansiedade. As receitas são deliciosas e super práticas. Recomendo demais!"</p>
+                    <p class="testimonial-author">— Ana Costa, 28 anos, Designer Gráfica</p>
                 </div>
                 <div class="testimonial">
-                    <p class="testimonial-text">"Minha relação com a comida mudou completamente. Não tenho mais ansiedade na hora de comer e me sinto muito mais leve e disposta."</p>
-                    <p class="testimonial-author">— Carla Santos, 41 anos</p>
+                    <p class="testimonial-text">"Minha relação com a comida se transformou! Não sinto mais culpa ao comer e aprendi a ouvir meu corpo. A ansiedade diminuiu e me sinto muito mais feliz e disposta."</p>
+                    <p class="testimonial-author">— Carla Santos, 41 anos, Professora</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee and Security Section -->
+    <section class="section">
+        <div class="container">
+            <div class="guarantee-section">
+                <h2>Sua Compra 100% Segura e Garantida!</h2>
+                <p>Tenha total tranquilidade ao adquirir o Plano 7x7. Sua satisfação é nossa prioridade.</p>
+                <div class="badges">
+                    <div class="badge-item">
+                        <img src="https://via.placeholder.com/50x50?text=Garantia" alt="Garantia de 7 Dias">
+                        <span>7 Dias de Garantia Incondicional</span>
+                    </div>
+                    <div class="badge-item">
+                        <img src="https://via.placeholder.com/50x50?text=Seguro" alt="Compra Segura">
+                        <span>Compra 100% Segura</span>
+                    </div>
+                    <div class="badge-item">
+                        <img src="https://via.placeholder.com/50x50?text=Kirvano" alt="Pagamento Kirvano">
+                        <span>Pagamento via Kirvano</span>
+                    </div>
+                    <div class="badge-item">
+                        <img src="https://via.placeholder.com/50x50?text=Pix" alt="Pagamento Pix">
+                        <span>Aceitamos Pix, Cartão e Boleto</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -609,7 +704,7 @@
             <div class="final-cta">
                 <h2>Transforme Sua Alimentação Hoje Mesmo!</h2>
                 <p>Não deixe para amanhã a mudança que pode começar agora. Você merece uma vida mais leve e saborosa.</p>
-                <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">QUERO MEU PLANO 7X7 AGORA!</a>
+                <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
             </div>
         </div>
     </section>
@@ -637,6 +732,18 @@
             }
         `;
         document.head.appendChild(style);
+
+        // Script para prova social dinâmica
+        document.addEventListener('DOMContentLoaded', function() {
+            const socialProofNumber = document.getElementById('socialProofNumber');
+            if (socialProofNumber) {
+                let currentNumber = parseInt(socialProofNumber.textContent);
+                setInterval(() => {
+                    currentNumber += Math.floor(Math.random() * 3) + 1; // Adiciona 1 a 3 a cada 5 segundos
+                    socialProofNumber.textContent = currentNumber;
+                }, 5000);
+            }
+        });
     </script>
 </body>
 </html>
