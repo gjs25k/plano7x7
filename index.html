@@ -3,128 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plano 7x7 – Organização Alimentar com Leveza - Transforme Sua Relação com a Comida</title>
+    <title>BÔNUS GRÁTIS: Controle Sua Ansiedade Alimentar em 7 Dias | Plano 7x7</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <meta name="description" content="Descubra o caminho para uma alimentação leve, consciente e prazerosa. Plano 7x7 – Organização Alimentar com Leveza: Kit completo com 8 e-books para transformar sua relação com a comida sem dietas restritivas.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="RESGATE AGORA: Guia 6 + Desafio 7 Dias GRÁTIS! Pare de descontar emoções na comida - método prático para mulheres ocupadas.">
     <style>
         :root {
             --primary-color: #f8f4f0;
-            --secondary-color: #e8d5c4;
-            --accent-color: #d4a574;
+            --accent-color: #e74c3c;
             --text-primary: #2c2c2c;
-            --text-secondary: #6b6b6b;
-            --text-light: #8a8a8a;
             --white: #ffffff;
-            --pink-soft: #f5e6e8;
-            --green-soft: #e8f5e8;
-            --blue-soft: #e6f2ff;
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
         }
 
         body {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.6;
+            background: linear-gradient(135deg, var(--primary-color) 0%, #f0e6d8 100%);
             color: var(--text-primary);
-            background-color: var(--primary-color);
+            line-height: 1.6;
+        }
+
+        .urgent-banner {
+            background: var(--accent-color);
+            color: white;
+            text-align: center;
+            padding: 12px;
+            font-weight: bold;
+            font-size: 1.1rem;
         }
 
         .container {
-            max-width: 768px;
+            max-width: 600px;
             margin: 0 auto;
             padding: 0 20px;
         }
 
         .hero {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-            padding: 60px 0;
             text-align: center;
+            padding: 40px 0 20px;
         }
 
         .hero h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            font-weight: 600;
-            color: var(--text-primary);
+            font-size: 2.3rem;
+            font-weight: 800;
             margin-bottom: 20px;
             line-height: 1.2;
+            color: var(--text-primary);
         }
 
         .hero .subtitle {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            margin-bottom: 30px;
-            font-weight: 400;
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: var(--accent-color);
         }
 
-        .hero .description {
+        .bonus-highlight {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            border: 3px dashed var(--accent-color);
+        }
+
+        .bonus-title {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 25px;
+            color: var(--accent-color);
+        }
+
+        .bonus-items {
+            margin-bottom: 25px;
+        }
+
+        .bonus-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .bonus-item .icon {
+            font-size: 1.8rem;
+            margin-right: 15px;
+            color: var(--accent-color);
+        }
+
+        .bonus-content h3 {
+            font-size: 1.3rem;
+            margin-bottom: 5px;
+        }
+
+        .bonus-content p {
+            color: #555;
+        }
+
+        .countdown {
+            background: #2c3e50;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .email-form {
+            margin: 30px 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 16px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
             font-size: 1rem;
-            color: var(--text-secondary);
-            margin-bottom: 40px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
         }
 
         .cta-button {
-            display: inline-block;
-            background: linear-gradient(135deg, var(--accent-color) 0%, #c19660 100%);
-            color: var(--white);
-            padding: 20px 45px;
-            border-radius: 50px;
-            text-decoration: none;
+            display: block;
+            width: 100%;
+            background: linear-gradient(135deg, var(--accent-color) 0%, #c0392b 100%);
+            color: white;
+            padding: 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.3rem;
             font-weight: 700;
-            font-size: 1.2rem;
-            transition: all 0.3s ease;
-            box-shadow: 0 6px 20px rgba(212, 165, 116, 0.4);
-            margin: 15px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            text-decoration: none;
+            box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
         }
 
         .cta-button:hover {
             transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(212, 165, 116, 0.5);
-        }
-
-        .section {
-            padding: 60px 0;
-        }
-
-        .section-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2rem;
-            font-weight: 600;
-            text-align: center;
-            margin-bottom: 50px;
-            color: var(--text-primary);
-        }
-
-        .vsl-container {
-            background: var(--white);
-            border-radius: 20px;
-            padding: 40px;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-            margin-bottom: 40px;
-        }
-
-        .vsl-warning {
-            text-align: center;
-            font-size: 0.95rem;
-            color: var(--text-secondary);
-            margin-bottom: 20px;
-            padding: 15px;
-            background: var(--pink-soft);
-            border-radius: 10px;
-            border-left: 4px solid var(--accent-color);
+            box-shadow: 0 8px 25px rgba(231, 76, 60, 0.5);
         }
 
         .security-badge {
@@ -134,630 +166,225 @@
             gap: 10px;
             margin: 20px 0;
             padding: 15px;
-            background: var(--green-soft);
+            background: #e8f5e9;
             border-radius: 10px;
             font-size: 0.9rem;
-            color: var(--text-primary);
-        }
-
-        .security-badge::before {
-            content: "🔒";
-            font-size: 1.2rem;
-        }
-
-        .product-grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 30px;
-            margin-bottom: 40px;
-        }
-
-        .product-card {
-            background: var(--white);
-            border-radius: 20px;
-            padding: 30px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
-        }
-
-        .product-card h3 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.4rem;
-            color: var(--text-primary);
-            margin-bottom: 15px;
-        }
-
-        .product-card .benefits {
-            color: var(--text-secondary);
-            margin-bottom: 20px;
-        }
-
-        .product-card .benefits ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .product-card .benefits li {
-            margin-bottom: 8px;
-            padding-left: 20px;
-            position: relative;
-        }
-
-        .product-card .benefits li:before {
-            content: "✨";
-            position: absolute;
-            left: 0;
-        }
-
-        .testimonials {
-            background: var(--white);
-            border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 40px;
-        }
-
-        .guarantee-section {
-            background: var(--blue-soft);
-            border-radius: 20px;
-            padding: 40px;
+            color: #2c2c2c;
             text-align: center;
-            margin-bottom: 40px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
         }
 
-        .guarantee-section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            color: var(--text-primary);
-            margin-bottom: 20px;
-        }
-
-        .guarantee-section p {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 20px;
-        }
-
-        .guarantee-section .badges img {
-            height: 50px;
-            margin: 0 15px;
-        }
-
-        .guarantee-section .badges {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .guarantee-section .badge-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-size: 0.9rem;
-            color: var(--text-primary);
-            font-weight: 500;
-        }
-
-        .guarantee-section .badge-item img {
-            margin-bottom: 5px;
-        }
-
-
-        .testimonial {
-            background: var(--pink-soft);
+        .offer-box {
+            background: white;
             border-radius: 15px;
             padding: 25px;
-            margin-bottom: 25px;
-            border-left: 4px solid var(--accent-color);
+            margin: 30px 0;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid var(--accent-color);
         }
 
-        .testimonial:last-child {
-            margin-bottom: 0;
+        .offer-badge {
+            position: absolute;
+            top: -15px;
+            right: 20px;
+            background: var(--accent-color);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transform: rotate(5deg);
+        }
+
+        .offer-header {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-color);
+        }
+
+        .offer-list {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        .offer-list li {
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+
+        .testimonial {
+            background: #fdebd0;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+            border-left: 4px solid var(--accent-color);
         }
 
         .testimonial-text {
             font-style: italic;
             margin-bottom: 15px;
-            color: var(--text-primary);
+            font-size: 1.1rem;
         }
 
         .testimonial-author {
             font-weight: 600;
             color: var(--accent-color);
+        }
+
+        .footer-note {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
             font-size: 0.9rem;
         }
 
-        .differentials {
-            background: var(--green-soft);
-            border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 40px;
-        }
-
-        .differentials ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .differentials li {
-            margin-bottom: 20px;
-            padding-left: 30px;
-            position: relative;
-            color: var(--text-primary);
-        }
-
-        .differentials li:before {
-            content: "💚";
-            position: absolute;
-            left: 0;
-            font-size: 1.2rem;
-        }
-
-        .faq {
-            background: var(--white);
-            border-radius: 20px;
-            padding: 40px;
-            margin-bottom: 40px;
-        }
-
-        .faq-item {
-            margin-bottom: 25px;
-            border-bottom: 1px solid var(--secondary-color);
-            padding-bottom: 20px;
-        }
-
-        .faq-item:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-        }
-
-        .faq-question {
-            font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: 10px;
-            font-size: 1.1rem;
-        }
-
-        .faq-answer {
-            color: var(--text-secondary);
-        }
-
-        .final-cta {
-            background: linear-gradient(135deg, var(--accent-color) 0%, #c19660 100%);
-            color: var(--white);
-            text-align: center;
-            padding: 60px 40px;
-            border-radius: 20px;
-            margin-bottom: 40px;
-        }
-
-        .final-cta h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-
-        .final-cta p {
-            font-size: 1.1rem;
-            margin-bottom: 30px;
-            opacity: 0.9;
-        }
-
-        .final-cta .cta-button {
-            background: var(--white);
-            color: var(--accent-color);
-            font-weight: 700;
-        }
-
-        .final-cta .cta-button:hover {
-            background: var(--primary-color);
-        }
-
-        .social-proof-dynamic {
-            background: var(--pink-soft);
-            border-radius: 10px;
-            padding: 20px;
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-
+        /* Mobile optimization */
         @media (max-width: 768px) {
             .hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero .subtitle {
-                font-size: 1.1rem;
-            }
-
-            .section-title {
                 font-size: 1.8rem;
             }
-
-            .vsl-container,
-            .testimonials,
-            .differentials,
-            .faq,
-            .final-cta {
-                padding: 25px;
+            
+            .hero .subtitle {
+                font-size: 1.2rem;
             }
-
-            .product-card {
-                padding: 20px;
-            }
-        }
-
-        .floating-elements {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: -1;
-        }
-
-        .floating-element {
-            position: absolute;
-            opacity: 0.1;
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .floating-element:nth-child(1) {
-            top: 10%;
-            left: 10%;
-            animation-delay: 0s;
-        }
-
-        .floating-element:nth-child(2) {
-            top: 20%;
-            right: 10%;
-            animation-delay: 2s;
-        }
-
-        .floating-element:nth-child(3) {
-            bottom: 20%;
-            left: 15%;
-            animation-delay: 4s;
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-20px);
+            
+            .bonus-title {
+                font-size: 1.5rem;
             }
         }
     </style>
 </head>
 <body>
-    <div class="floating-elements">
-        <div class="floating-element">🌸</div>
-        <div class="floating-element">🍃</div>
-        <div class="floating-element">✨</div>
+    <!-- Banner de urgência -->
+    <div class="urgent-banner">
+        ⚠️ ATENÇÃO: Bônus gratuito disponível apenas para as próximas <span id="counter">20</span> pessoas!
     </div>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
+    <div class="container">
+        <!-- Hero Section Otimizada -->
+        <section class="hero">
+            <h1>PARE de Descontar Suas Emoções na Comida!</h1>
+            <p class="subtitle">Guia 6 + Desafio 7 Dias GRÁTIS</p>
+        </section>
 
-            <h1>Plano 7x7 – Organização Alimentar com Leveza</h1>
-            <p class="subtitle">Sua Jornada para uma Alimentação Leve e Consciente Começa Aqui!</p>
-        </div>
-    </section>
-
-    <!-- VSL Section -->
-    <section class="section">
-        <div class="container">
-            <div class="vsl-warning">
-                ⚠️ Assista ao vídeo até o final — o botão será liberado automaticamente após 45 segundos.
-            </div>
+        <!-- Card do bônus -->
+        <div class="bonus-highlight">
+            <h2 class="bonus-title">SEU PACOTE ANTI-COMPULSÃO</h2>
             
-            <div class="vsl-container">
-                <video id="vslVideo" controls preload="auto" style="width: 100%; max-width: 700px; border-radius: 15px;">
-                    <!-- Para usar a VSL do repositório, substitua o src abaixo pelo caminho correto do seu vídeo -->
-                    <source src="vls.mp4.mp4" type="video/mp4">
-                    <!-- Alternativa: se o vídeo estiver em uma pasta específica -->
-                    <!-- <source src="./videos/vls.mp4" type="video/mp4"> -->
-                    <!-- Ou se estiver hospedado externamente -->
-                    <!-- <source src="https://seu-repositorio.vercel.app/vls.mp4" type="video/mp4"> -->
-                    Seu navegador não suporta o elemento de vídeo.
-                </video>
-
-                <!-- Botão CTA único que aparece após 45 segundos -->
-                <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" 
-                   id="ctaButton" 
-                   class="cta-button" 
-                   style="display: none; margin-top: 20px;">
-                   SIM, QUERO TRANSFORMAR MINHA ALIMENTAÇÃO!
-                </a>
+            <div class="bonus-items">
+                <div class="bonus-item">
+                    <div class="icon">🔍</div>
+                    <div class="bonus-content">
+                        <h3>Guia 6: Domine a Ansiedade Alimentar</h3>
+                        <p>Identifique gatilhos emocionais e quebre o ciclo compulsivo</p>
+                    </div>
+                </div>
                 
-                <!-- Badge de segurança que aparece junto com o botão -->
-                <div class="security-badge" id="vslSecurityBadge" style="display: none; margin-top: 15px;">
-                    Compra 100% Segura - Dados Protegidos
+                <div class="bonus-item">
+                    <div class="icon">🚀</div>
+                    <div class="bonus-content">
+                        <h3>Guia 7: Desafio de 7 Dias</h3>
+                        <p>Passo a passo prático para resultados imediatos</p>
+                    </div>
+                </div>
+                
+                <div class="bonus-item">
+                    <div class="icon">🎁</div>
+                    <div class="bonus-content">
+                        <h3>Bônus: Vídeo "Respire Antes de Comer"</h3>
+                        <p>Técnica de 5 minutos para controle emocional</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Segunda CTA abaixo da VSL -->
-    <section class="section" id="cta-after-vsl">
-        <div class="container" style="text-align: center;">
-            <a href="#finalCtaSection" 
-               class="cta-button">
-               SIM, QUERO TRANSFORMAR MINHA ALIMENTAÇÃO!
-            </a>
-        </div>
-    </section>
-
-    <!-- Product Section -->
-    <section class="section" id="produto">
-        <div class="container">
-            <h2 class="section-title">O Que Você Vai Receber no Plano 7x7 – Organização Alimentar com Leveza?</h2>
             
-            <div class="product-grid">
-                <div class="product-card">
-                    <h3>1. Organização Sem Complicação</h3>
-                    <div class="benefits">
-                        <ul>
-                            <li>Planejamento semanal flexível</li>
-                            <li>Reduza o estresse na hora de comer</li>
-                        </ul>
-                    </div>
-                    <a href="#finalCtaSection" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>2. Cardápio Inteligente</h3>
-                    <div class="benefits">
-                        <ul>
-                            <li>7 dias de cardápio completo e balanceado</li>
-                            <li>Alternativas rápidas para dias corridos</li>
-                        </ul>
-                    </div>
-                    <a href="#finalCtaSection" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>3. Lista de Compras Inteligente</h3>
-                    <div class="benefits">
-                        <ul>
-                            <li>Listas segmentadas por categorias</li>
-                            <li>Dicas valiosas de economia doméstica</li>
-                        </ul>
-                    </div>
-                    <a href="#finalCtaSection" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>4. Receitas Práticas</h3>
-                    <div class="benefits">
-                        <ul>
-                            <li>7 receitas saudáveis e rápidas</li>
-                            <li>Modo de preparo passo a passo</li>
-                        </ul>
-                    </div>
-                    <a href="#finalCtaSection" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>5. Lanches para TPM e Ansiedade</h3>
-                    <div class="benefits">
-                        <ul>
-                            <li>7 ideias práticas com ingredientes calmantes</li>
-                            <li>Cuide do corpo e da mente simultaneamente</li>
-                        </ul>
-                    </div>
-                    <a href="#finalCtaSection" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>6. Driblando a Ansiedade</h3>
-                    <div class="benefits">
-                        <ul>
-                            <li>Técnicas emocionais aplicadas à alimentação</li>
-                            <li>Frases motivacionais e libertadoras</li>
-                        </ul>
-                    </div>
-                    <a href="#finalCtaSection" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>7. Mini Desafio de 7 Dias</h3>
-                    <div class="benefits">
-                        <ul>
-                            <li>Desafio prático para implementar tudo</li>
-                            <li>Transforme hábitos de forma gradual</li>
-                        </ul>
-                    </div>
-                    <a href="#finalCtaSection" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
-                </div>
-
-                <div class="product-card">
-                    <h3>8. Bônus: Guia de Substituições</h3>
-                    <div class="benefits">
-                        <ul>
-                            <li>Alternativas saudáveis para ingredientes comuns</li>
-                            <li>Economize tempo e dinheiro nas compras</li>
-                        </ul>
-                    </div>
-                    <a href="#finalCtaSection" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
-                </div>
+            <div class="countdown">
+                ⏰ OFERTA VÁLIDA POR: <span id="timer">24:00:00</span>
             </div>
         </div>
-    </section>
 
-    <!-- Social Proof Section -->
-    <section class="section">
-        <div class="container">
-            <div style="text-align: center; background: var(--pink-soft); padding: 20px; border-radius: 10px; margin-bottom: 40px;">
-                <p style="font-size: 1.1rem; font-weight: 600; color: var(--text-primary);">🔥 Mais de <span id="socialProofNumber">327</span> mulheres já acessaram o Plano 7x7 esta semana!</p>
+        <!-- Formulário de captura -->
+        <div class="email-form">
+            <div class="form-group">
+                <label for="email">Digite seu melhor e-mail:</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+            </div>
+            
+            <a href="obrigado.html" class="cta-button">
+                🚀 QUERO MEU BÔNUS GRÁTIS AGORA!
+            </a>
+            
+            <div class="security-badge">
+                🔒 Seus dados estão 100% seguros. Respeitamos sua privacidade.
             </div>
         </div>
-    </section>
 
-    <!-- Testimonials Section -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">O Que Nossas Clientes Estão Dizendo</h2>
-            <div class="testimonials">
-                <div class="testimonial">
-                    <p class="testimonial-text">"O Plano 7x7 mudou minha vida! Em apenas 2 meses, perdi 8kg sem dietas malucas e, o melhor, aprendi a comer de forma consciente. Sinto-me mais leve e com energia de sobra!"</p>
-                    <p class="testimonial-author">— Maria Silva, 34 anos, Empresária</p>
-                </div>
-                <div class="testimonial">
-                    <p class="testimonial-text">"Mesmo com a rotina agitada, consegui organizar minhas refeições e parar de comer por ansiedade. As receitas são deliciosas e super práticas. Recomendo demais!"</p>
-                    <p class="testimonial-author">— Ana Costa, 28 anos, Designer Gráfica</p>
-                </div>
-                <div class="testimonial">
-                    <p class="testimonial-text">"Minha relação com a comida se transformou! Não sinto mais culpa ao comer e aprendi a ouvir meu corpo. A ansiedade diminuiu e me sinto muito mais feliz e disposta."</p>
-                    <p class="testimonial-author">— Carla Santos, 41 anos, Professora</p>
-                </div>
-            </div>
+        <!-- Depoimento estratégico -->
+        <div class="testimonial">
+            <p class="testimonial-text">"O Guia 6 mudou MINHA VIDA! Em 7 dias reduzi 80% das compulsões. Finalmente entendi a diferença entre fome física e emocional!"</p>
+            <p class="testimonial-author">- Ana Clara, 32 anos</p>
         </div>
-    </section>
 
-    <!-- Guarantee and Security Section -->
-    <section class="section">
-        <div class="container">
-            <div class="guarantee-section">
-                <h2>Sua Compra 100% Segura e Garantida!</h2>
-                <p>Tenha total tranquilidade ao adquirir o Plano 7x7. Sua satisfação é nossa prioridade.</p>
-                <div class="badges">
-                <div class="badge-item">
-                        <span>🛡️ 7 Dias de Garantia Incondicional</span>
-                    </div>
-                    <div class="badge-item">
-                        <span>🔒 Compra 100% Segura</span>
-                    </div>
-                    <div class="badge-item">
-                        <span>🐐 Pagamento via Kirvano</span>
-                    </div>
-                    <div class="badge-item">
-                        <span>💳 Aceitamos Pix, Cartão e Boleto</span>
-                    </div>
-                </div>
-            </div>
+        <!-- Oferta do produto completo -->
+        <div class="offer-box">
+            <div class="offer-badge">EXCLUSIVO</div>
+            <h3 class="offer-header">QUER RESULTADOS COMPLETOS?</h3>
+            <p><strong>Enquanto seu bônus é processado, temos uma oferta especial:</strong></p>
+            
+            <ul class="offer-list">
+                <li><strong>Acesso completo</strong> ao Plano 7x7 (todos os 8 guias)</li>
+                <li><strong>Método passo a passo</strong> para 7 semanas de transformação</li>
+                <li><strong>Planner exclusivo</strong> para organização alimentar</li>
+                <li><strong>Bônus imediato:</strong> Lista de Compras Inteligente</li>
+            </ul>
+            
+            <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349?cupom=PLANO47OFF" 
+               class="cta-button">
+               🥗 SIM, QUERO 47% DE DESCONTO!
+            </a>
+            
+            <p style="text-align: center; margin-top: 15px; font-size: 0.9rem;">
+                Use o cupom: <strong>PLANO47OFF</strong>
+            </p>
         </div>
-    </section>
 
-    <!-- Differentials Section -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">Por Que o Plano 7x7 é Diferente?</h2>
-            <div class="differentials">
-                <ul>
-                    <li>Sem dietas restritivas ou contagem obsessiva de calorias</li>
-                    <li>Foco na organização e planejamento inteligente</li>
-                    <li>Receitas práticas para o dia a dia corrido</li>
-                    <li>Abordagem emocional para lidar com a ansiedade</li>
-                    <li>Material completo e prático para implementar imediatamente</li>
-                    <li>Suporte para criar uma rotina alimentar sustentável</li>
-                </ul>
-            </div>
+        <div class="footer-note">
+            Plano 7x7 © 2025 - Transformando vidas através da alimentação consciente
         </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">Perguntas Frequentes</h2>
-            <div class="faq">
-                <div class="faq-item">
-                    <h3 class="faq-question">Como recebo o material após a compra?</h3>
-                    <p class="faq-answer">Após a confirmação do pagamento, você receberá um e-mail com o link para download de todos os 8 e-books em PDF. O acesso é imediato!</p>
-                </div>
-                <div class="faq-item">
-                    <h3 class="faq-question">O plano funciona para vegetarianos?</h3>
-                    <p class="faq-answer">Sim! O material inclui sugestões de substituições e adaptações para diferentes estilos alimentares, incluindo vegetariano e vegano.</p>
-                </div>
-                <div class="faq-item">
-                    <h3 class="faq-question">Preciso de conhecimento prévio em nutrição?</h3>
-                    <p class="faq-answer">Não! Todo o conteúdo foi desenvolvido para ser prático e acessível. Você não precisa ser expert em nutrição para aplicar as estratégias.</p>
-                </div>
-                <div class="faq-item">
-                    <h3 class="faq-question">Há garantia de satisfação?</h3>
-                    <p class="faq-answer">Sim! Oferecemos 7 dias de garantia incondicional. Se não ficar satisfeita, devolvemos 100% do seu investimento.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Final CTA Section -->
-    <section class="section">
-        <div class="container">
-            <div class="final-cta">
-                <h2>Transforme Sua Alimentação Hoje Mesmo!</h2>
-                <p>Não deixe para amanhã a mudança que pode começar agora. Você merece uma vida mais leve e saborosa.</p>
-                <a href="https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349" class="cta-button">SIM, QUERO COMEÇAR AGORA!</a>
-            </div>
-        </div>
-    </section>
+    </div>
 
     <script>
-        // Script otimizado para exibir o botão CTA após 45 segundos
-        document.addEventListener('DOMContentLoaded', function() {
-            const ctaButton = document.getElementById('ctaButton');
+        // Contador regressivo de 24 horas
+        let countdown = 24 * 60 * 60; // 24 horas em segundos
+        
+        function updateTimer() {
+            const hours = Math.floor(countdown / 3600);
+            const minutes = Math.floor((countdown % 3600) / 60);
+            const seconds = countdown % 60;
             
-            // Exibe o botão após 45 segundos
-            setTimeout(function() {
-                if (ctaButton) {
-                    ctaButton.style.display = 'inline-block';
-                    ctaButton.style.animation = 'fadeIn 0.5s ease-in';
-                }
-            }, 45000); // 45 segundos
-        });
-
-        // Adiciona animação CSS para o botão aparecer suavemente
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes fadeIn {
-                from { opacity: 0; transform: translateY(10px); }
-                to { opacity: 1; transform: translateY(0); }
+            document.getElementById('timer').innerText = 
+                `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            
+            if (countdown <= 0) {
+                clearInterval(timerInterval);
+            } else {
+                countdown--;
             }
-        `;
-        document.head.appendChild(style);
-
-        // Script para VSL e botão CTA
-        document.addEventListener("DOMContentLoaded", function() {
-            const vslVideo = document.getElementById("vslVideo");
-            const ctaButton = document.getElementById("ctaButton");
-            const vslSecurityBadge = document.getElementById("vslSecurityBadge");
-            const finalCtaSection = document.getElementById("finalCtaSection");
-
-            // Definir o link do botão CTA para o checkout
-            ctaButton.href = "https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349";
-            finalCtaSection.querySelector(".cta-button").href = "https://pay.kirvano.com/49abbc23-d04f-4847-ae96-e76d1f634349";
-
-            vslVideo.addEventListener("timeupdate", function() {
-                if (vslVideo.currentTime >= 45 && ctaButton.style.display === "none") {
-                    ctaButton.style.display = "inline-block";
-                    vslSecurityBadge.style.display = "flex"; // Exibe o badge de segurança
-                }
-            });
-
-            // Script para prova social dinâmica
-            const socialProofNumber = document.getElementById("socialProofNumber");
-            if (socialProofNumber) {
-                let currentNumber = parseInt(socialProofNumber.textContent);
-                setInterval(() => {
-                    currentNumber += Math.floor(Math.random() * 3) + 1; // Adiciona 1 a 3 a cada 5 segundos
-                    socialProofNumber.textContent = currentNumber;
-                }, 5000);
+        }
+        
+        // Contador de pessoas (diminui aleatoriamente)
+        let peopleCount = 20;
+        setInterval(() => {
+            if (peopleCount > 3) {
+                peopleCount -= Math.floor(Math.random() * 2) + 1;
+                document.getElementById('counter').textContent = peopleCount;
             }
-        });
+        }, 15000);
+        
+        // Iniciar contadores
+        updateTimer();
+        const timerInterval = setInterval(updateTimer, 1000);
     </script>
 </body>
 </html>
-
